@@ -45,7 +45,7 @@ buttons.forEach(btn => btn.addEventListener('click', (e) => {
 
 
 function change(img, description) {
-  document.querySelector('.image-char').setAttribute('src', `img/${img}`)
+  document.querySelector('.image-char').setAttribute('src', `${img}`)
   document.querySelector('.text').innerText = description
 }
 
